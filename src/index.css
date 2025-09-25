@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Boxing School Design System - Dark Athletic Theme */
+
+@layer base {
+  :root {
+    /* Boxing Athletic Color Palette */
+    --background: 220 10% 6%;
+    --foreground: 0 0% 95%;
+
+    --card: 220 10% 8%;
+    --card-foreground: 0 0% 95%;
+
+    --popover: 220 10% 8%;
+    --popover-foreground: 0 0% 95%;
+
+    --primary: 0 85% 55%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 220 8% 15%;
+    --secondary-foreground: 0 0% 90%;
+
+    --muted: 220 8% 12%;
+    --muted-foreground: 0 0% 65%;
+
+    --accent: 45 90% 55%;
+    --accent-foreground: 220 10% 6%;
+
+    --destructive: 0 85% 55%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 8% 20%;
+    --input: 220 8% 15%;
+    --ring: 0 85% 55%;
+
+    --radius: 0.75rem;
+
+    /* Boxing Theme Colors */
+    --boxing-red: 0 85% 55%;
+    --boxing-red-dark: 0 85% 45%;
+    --boxing-gold: 45 90% 55%;
+    --boxing-gold-dark: 45 90% 45%;
+    --boxing-dark: 220 10% 6%;
+    --boxing-dark-lighter: 220 8% 12%;
+    --boxing-gray: 220 5% 40%;
+
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(0 85% 55% / 0.9), hsl(220 10% 6% / 0.95));
+    --gradient-card: linear-gradient(145deg, hsl(220 8% 12%), hsl(220 10% 8%));
+    --gradient-cta: linear-gradient(135deg, hsl(0 85% 55%), hsl(0 85% 45%));
+    --gradient-accent: linear-gradient(135deg, hsl(45 90% 55%), hsl(45 90% 45%));
+
+    /* Shadows & Effects */
+    --shadow-boxing: 0 10px 30px -5px hsl(0 85% 55% / 0.3);
+    --shadow-card: 0 8px 32px -8px hsl(220 10% 0% / 0.4);
+    --shadow-glow: 0 0 40px hsl(0 85% 55% / 0.4);
+
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+
+  /* Light mode (minimal adjustments) */
+  .light {
+    --background: 0 0% 98%;
+    --foreground: 220 10% 10%;
+    --card: 0 0% 100%;
+    --card-foreground: 220 10% 10%;
+    --border: 220 8% 85%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+
+  /* Smooth scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Focus styles for accessibility */
+  *:focus-visible {
+    @apply outline-none ring-2 ring-primary/50 ring-offset-2 ring-offset-background;
+  }
+
+  /* Reduce motion for users who prefer it */
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}

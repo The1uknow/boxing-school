@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "title": "Boxing School in Tashkent | Professional Training | BoxingSchool",
+    "description": "Boxing school in Tashkent for beginners and advanced athletes. Professional coaches, safe training, individual approach. Sign up for a trial session!"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "tariffs": "Plans",
+    "contacts": "Contacts"
+  },
+  "hero": {
+    "title": "Boxing School in Tashkent",
+    "subtitle": "For beginners and advanced. Safety, technique, discipline.",
+    "benefit1": "Professional coaches with 10+ years experience",
+    "benefit2": "Modern equipment and safe training sessions"
+  },
+  "cta": "Leave a request",
+  "about": {
+    "title": "About",
+    "subtitle": "Professional boxer training",
+    "text": "Sessions with experienced coaches. Individual approach, visible progress from the first month. We create an atmosphere of discipline and mutual respect.",
+    "features": [
+      "Individual approach to each student",
+      "Safe training with proper technique",
+      "Modern equipment and inventory",
+      "Competition preparation"
+    ]
+  },
+  "tariffs": {
+    "title": "Plans",
+    "subtitle": "Choose the right training plan for you",
+    "items": [
+      {
+        "name": "Start",
+        "price": "499,000 UZS / month",
+        "popular": false,
+        "features": [
+          "3 sessions/week",
+          "Up to 12 per group",
+          "Fundamentals program",
+          "Coach consultations"
+        ]
+      },
+      {
+        "name": "Pro",
+        "price": "699,000 UZS / month", 
+        "popular": true,
+        "features": [
+          "5 sessions/week",
+          "Flexible schedule",
+          "Technique & endurance",
+          "Sparring partners"
+        ]
+      },
+      {
+        "name": "Personal",
+        "price": "from 1,200,000 UZS / month",
+        "popular": false,
+        "features": [
+          "1-on-1 coaching",
+          "Personal goals",
+          "Sparring prep",
+          "Personal nutrition program"
+        ]
+      }
+    ]
+  },
+  "contacts": {
+    "title": "Contacts",
+    "subtitle": "Contact us to sign up for training",
+    "address_label": "Address",
+    "address_value": "Tashkent, Uzbekistan",
+    "phone_label": "Phone",
+    "phone_value": "+998-90-317-38-08",
+    "hours_label": "Hours",
+    "hours_value": "Mon–Sat, 9:00–21:00",
+    "actions": {
+      "telegram": "Message on Telegram",
+      "call": "Call us",
+      "route": "Get directions"
+    }
+  },
+  "footer": {
+    "copyright": "made by Mukhsin Kamolov",
+    "links": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "title": "Toshkentdagi boks maktabi | Professional mashg'ulotlar | BoxingSchool",
+    "description": "Toshkentdagi boks maktabi yangi boshlovchilar va tajribali sportchilar uchun. Professional murabbiylar, xavfsiz mashg'ulotlar, individual yondashuv."
+  },
+  "nav": {
+    "home": "Bosh sahifa",
+    "about": "Biz haqimizda",
+    "tariffs": "Tariflar",
+    "contacts": "Aloqa"
+  },
+  "hero": {
+    "title": "Toshkentdagi boks maktabi",
+    "subtitle": "Yangi boshlovchilar va tajribali sportchilar uchun. Xavfsizlik, texnika, intizom.",
+    "benefit1": "10+ yillik tajribaga ega professional murabbiylar",
+    "benefit2": "Zamonaviy jihozlar va xavfsiz mashg'ulotlar"
+  },
+  "cta": "Ariza qoldirish",
+  "about": {
+    "title": "Maktab haqida",
+    "subtitle": "Bokschilarni professional tayyorlash",
+    "text": "Tajribali murabbiylar bilan mashg'ulotlar. Individual yondashuv, birinchi oydan natija. Biz intizom va o'zaro hurmat muhitini yaratamiz.",
+    "features": [
+      "Har bir o'quvchiga individual yondashuv",
+      "Texnika bilan xavfsiz mashg'ulotlar",
+      "Zamonaviy jihozlar va inventar",
+      "Musobaqalarga tayyorgarlik"
+    ]
+  },
+  "tariffs": {
+    "title": "Tariflar",
+    "subtitle": "O'zingizga mos mashg'ulot rejasini tanlang",
+    "items": [
+      {
+        "name": "Start",
+        "price": "Oyiga 499 000 UZS",
+        "popular": false,
+        "features": [
+          "Haftasiga 3 mashg'ulot",
+          "Guruhda 12 tagacha",
+          "Bazaviy dastur",
+          "Murabbiy maslahatlari"
+        ]
+      },
+      {
+        "name": "Pro", 
+        "price": "Oyiga 699 000 UZS",
+        "popular": true,
+        "features": [
+          "Haftasiga 5 mashg'ulot",
+          "Moslashuvchan jadval",
+          "Texnika va chidamlilik",
+          "Sparring hamkorlari"
+        ]
+      },
+      {
+        "name": "Personal",
+        "price": "Oyiga 1 200 000 UZS dan",
+        "popular": false,
+        "features": [
+          "Individual darslar",
+          "Maqsadlaringizga mos",
+          "Sparringga tayyorgarlik",
+          "Shaxsiy ovqatlanish dasturi"
+        ]
+      }
+    ]
+  },
+  "contacts": {
+    "title": "Aloqa",
+    "subtitle": "Mashg'ulotga yozilish uchun biz bilan bog'laning",
+    "address_label": "Manzil",
+    "address_value": "Toshkent, O'zbekiston",
+    "phone_label": "Telefon",
+    "phone_value": "+998-90-317-38-08",
+    "hours_label": "Ish vaqti",
+    "hours_value": "Du–Sha, 9:00–21:00",
+    "actions": {
+      "telegram": "Telegramda yozish",
+      "call": "Qo'ng'iroq qilish",
+      "route": "Yo'nalishni ko'rsatish"
+    }
+  },
+  "footer": {
+    "copyright": "made by Mukhsin Kamolov",
+    "links": {
+      "privacy": "Maxfiylik siyosati",
+      "terms": "Foydalanish shartlari"
+    }
+  }
+}

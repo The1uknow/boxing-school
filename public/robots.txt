@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: /sitemap.xml
+
+# Boxing School Tashkent - Allow all crawlers
