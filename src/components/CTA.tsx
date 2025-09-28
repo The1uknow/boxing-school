@@ -9,12 +9,13 @@ interface CTAProps {
   className?: string;
 }
 
-const TG_BOT_URL = import.meta.env.VITE_TG_BOT_URL || 'https://t.me/boxing_school_tashkent_bot';
+// 👇 Прямая ссылка на твоего бота
+const TG_BOT_URL = 'https://t.me/testmaglesbot';
 const PHONE_NUMBER = '+998903173808';
 
 /**
  * Reusable CTA component with boxing-themed animations
- * All CTAs lead to Telegram bot with fallback to phone call
+ * Leads to Telegram bot, with phone call fallback
  */
 export const CTA: React.FC<CTAProps> = ({ 
   variant = 'primary', 
@@ -24,20 +25,12 @@ export const CTA: React.FC<CTAProps> = ({
   const { t } = useI18n();
 
   const handleClick = () => {
-    // Try to open Telegram bot
-    const link = document.createElement('a');
-    link.href = TG_BOT_URL;
-    link.target = '_blank';
-    link.rel = 'noopener noreferrer';
-    
-    // Fallback to phone if Telegram fails
-    link.onerror = () => {
+    // Открываем Telegram-бота
+    const newWindow = window.open(TG_BOT_URL, '_blank', 'noopener,noreferrer');
+    // Если браузер блокирует или Telegram недоступен, пробуем звонок
+    if (!newWindow || newWindow.closed || typeof newWindow.closed === 'undefined') {
       window.location.href = `tel:${PHONE_NUMBER}`;
-    };
-    
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+    }
   };
 
   const variants = {

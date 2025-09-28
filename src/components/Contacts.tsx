@@ -13,7 +13,7 @@ export const Contacts: React.FC = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: '-50px' });
 
-  const TG_BOT_URL = import.meta.env.VITE_TG_BOT_URL || 'https://t.me/boxing_school_tashkent_bot';
+  const TG_BOT_URL = import.meta.env.VITE_TG_BOT_URL || 'https://t.me/testmaglesbot';
   const PHONE_NUMBER = '+998903173808';
   
   const contactInfo = [
